@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>E:\KMUTT\FourthYear\FirstSemester\FinalYearProject\Pitting Corrosion\Machine Tool\Electronics\Pitting Detection Stand\Pitting Detection Stand.kicad_sch</source>
+    <date>2/20/2024 5:15:38 PM</date>
+    <tool>Eeschema 7.0.9</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Pitting Detection Stand.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="A1">
+      <value>A4988 Driver for Z-Axis</value>
+      <footprint>Module:Pololu_Breakout-16_15.2x20.3mm</footprint>
+      <datasheet>https://www.pololu.com/product/2980/pictures</datasheet>
+      <libsource lib="Driver_Motor" part="Pololu_Breakout_A4988" description="Pololu Breakout Board, Stepper Driver A4988"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pitting Detection Stand.kicad_sch"/>
+      <property name="ki_description" value="Pololu Breakout Board, Stepper Driver A4988"/>
+      <property name="ki_keywords" value="Pololu Breakout Board Stepper Driver A4988"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>af0cc2d7-6d3a-4f73-b79e-c6632dc7286e</tstamps>
+    </comp>
+    <comp ref="A2">
+      <value>Arduino_Nano_v2.x</value>
+      <footprint>Module:Arduino_Nano</footprint>
+      <datasheet>https://www.arduino.cc/en/uploads/Main/ArduinoNanoManual23.pdf</datasheet>
+      <libsource lib="MCU_Module" part="Arduino_Nano_v2.x" description="Arduino Nano v2.x"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pitting Detection Stand.kicad_sch"/>
+      <property name="ki_description" value="Arduino Nano v2.x"/>
+      <property name="ki_keywords" value="Arduino nano microcontroller module USB"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d2cf4c08-4543-4c0e-9143-fe8facf64f61</tstamps>
+    </comp>
+    <comp ref="M1">
+      <value>Nema 17 (Z-axis)</value>
+      <datasheet>http://www.infineon.com/dgdl/Application-Note-TLE8110EE_driving_UniPolarStepperMotor_V1.1.pdf?fileId=db3a30431be39b97011be5d0aa0a00b0</datasheet>
+      <libsource lib="Motor" part="Stepper_Motor_bipolar" description="4-wire bipolar stepper motor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pitting Detection Stand.kicad_sch"/>
+      <property name="ki_description" value="4-wire bipolar stepper motor"/>
+      <property name="ki_keywords" value="bipolar stepper motor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7d05a6cc-9236-42e1-b35f-fd9509b98eaa</tstamps>
+    </comp>
+    <comp ref="M2">
+      <value>Servo for focusing lense</value>
+      <datasheet>http://forums.parallax.com/uploads/attachments/46831/74481.png</datasheet>
+      <libsource lib="Motor" part="Motor_Servo" description="Servo Motor (Futaba, HiTec, JR connector)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pitting Detection Stand.kicad_sch"/>
+      <property name="ki_description" value="Servo Motor (Futaba, HiTec, JR connector)"/>
+      <property name="ki_keywords" value="Servo Motor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d837f071-db03-45d9-b213-4fd36810401f</tstamps>
+    </comp>
+    <comp ref="M3">
+      <value>Servo for 180 degree span XY plane</value>
+      <datasheet>http://forums.parallax.com/uploads/attachments/46831/74481.png</datasheet>
+      <libsource lib="Motor" part="Motor_Servo" description="Servo Motor (Futaba, HiTec, JR connector)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pitting Detection Stand.kicad_sch"/>
+      <property name="ki_description" value="Servo Motor (Futaba, HiTec, JR connector)"/>
+      <property name="ki_keywords" value="Servo Motor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>18112d49-ff29-4ea2-9278-55246e773c0a</tstamps>
+    </comp>
+    <comp ref="M4">
+      <value>Servo motor moving X-Axis</value>
+      <datasheet>http://forums.parallax.com/uploads/attachments/46831/74481.png</datasheet>
+      <libsource lib="Motor" part="Motor_Servo" description="Servo Motor (Futaba, HiTec, JR connector)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pitting Detection Stand.kicad_sch"/>
+      <property name="ki_description" value="Servo Motor (Futaba, HiTec, JR connector)"/>
+      <property name="ki_keywords" value="Servo Motor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>89ff36df-c5c7-4bd7-a915-5895c9dfecfe</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>U_Bound SW</value>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pitting Detection Stand.kicad_sch"/>
+      <property name="ki_description" value="Single Pole Single Throw (SPST) switch"/>
+      <property name="ki_keywords" value="switch lever"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>95124573-00bd-47df-9c0d-4847c2a743d0</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>U_Bound SW</value>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pitting Detection Stand.kicad_sch"/>
+      <property name="ki_description" value="Single Pole Single Throw (SPST) switch"/>
+      <property name="ki_keywords" value="switch lever"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>65225209-e377-40d0-bfff-6f15e30893d8</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Driver_Motor" part="Pololu_Breakout_A4988">
+      <description>Pololu Breakout Board, Stepper Driver A4988</description>
+      <docs>https://www.pololu.com/product/2980/pictures</docs>
+      <footprints>
+        <fp>Pololu*Breakout*15.2x20.3mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">A</field>
+        <field name="Value">Pololu_Breakout_A4988</field>
+        <field name="Footprint">Module:Pololu_Breakout-16_15.2x20.3mm</field>
+        <field name="Datasheet">https://www.pololu.com/product/2980/pictures</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VDD" type="power_in"/>
+        <pin num="3" name="1B" type="output"/>
+        <pin num="4" name="1A" type="output"/>
+        <pin num="5" name="2A" type="output"/>
+        <pin num="6" name="2B" type="output"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="VMOT" type="power_in"/>
+        <pin num="9" name="~{ENABLE}" type="input"/>
+        <pin num="10" name="MS1" type="input"/>
+        <pin num="11" name="MS2" type="input"/>
+        <pin num="12" name="MS3" type="input"/>
+        <pin num="13" name="~{RESET}" type="input"/>
+        <pin num="14" name="~{SLEEP}" type="input"/>
+        <pin num="15" name="STEP" type="input"/>
+        <pin num="16" name="DIR" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_Module" part="Arduino_Nano_v2.x">
+      <description>Arduino Nano v2.x</description>
+      <docs>https://www.arduino.cc/en/uploads/Main/ArduinoNanoManual23.pdf</docs>
+      <footprints>
+        <fp>Arduino*Nano*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">A</field>
+        <field name="Value">Arduino_Nano_v2.x</field>
+        <field name="Footprint">Module:Arduino_Nano</field>
+        <field name="Datasheet">https://www.arduino.cc/en/uploads/Main/ArduinoNanoManual23.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D1/TX" type="bidirectional"/>
+        <pin num="2" name="D0/RX" type="bidirectional"/>
+        <pin num="3" name="~{RESET}" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="D2" type="bidirectional"/>
+        <pin num="6" name="D3" type="bidirectional"/>
+        <pin num="7" name="D4" type="bidirectional"/>
+        <pin num="8" name="D5" type="bidirectional"/>
+        <pin num="9" name="D6" type="bidirectional"/>
+        <pin num="10" name="D7" type="bidirectional"/>
+        <pin num="11" name="D8" type="bidirectional"/>
+        <pin num="12" name="D9" type="bidirectional"/>
+        <pin num="13" name="D10" type="bidirectional"/>
+        <pin num="14" name="D11" type="bidirectional"/>
+        <pin num="15" name="D12" type="bidirectional"/>
+        <pin num="16" name="D13" type="bidirectional"/>
+        <pin num="17" name="3V3" type="power_out"/>
+        <pin num="18" name="AREF" type="input"/>
+        <pin num="19" name="A0" type="bidirectional"/>
+        <pin num="20" name="A1" type="bidirectional"/>
+        <pin num="21" name="A2" type="bidirectional"/>
+        <pin num="22" name="A3" type="bidirectional"/>
+        <pin num="23" name="A4" type="bidirectional"/>
+        <pin num="24" name="A5" type="bidirectional"/>
+        <pin num="25" name="A6" type="bidirectional"/>
+        <pin num="26" name="A7" type="bidirectional"/>
+        <pin num="27" name="+5V" type="power_out"/>
+        <pin num="28" name="~{RESET}" type="input"/>
+        <pin num="29" name="GND" type="power_in"/>
+        <pin num="30" name="VIN" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Motor" part="Motor_Servo">
+      <description>Servo Motor (Futaba, HiTec, JR connector)</description>
+      <docs>http://forums.parallax.com/uploads/attachments/46831/74481.png</docs>
+      <footprints>
+        <fp>PinHeader*P2.54mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">Motor_Servo</field>
+        <field name="Datasheet">http://forums.parallax.com/uploads/attachments/46831/74481.png</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PWM" type="passive"/>
+        <pin num="2" name="+" type="passive"/>
+        <pin num="3" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Motor" part="Stepper_Motor_bipolar">
+      <description>4-wire bipolar stepper motor</description>
+      <docs>http://www.infineon.com/dgdl/Application-Note-TLE8110EE_driving_UniPolarStepperMotor_V1.1.pdf?fileId=db3a30431be39b97011be5d0aa0a00b0</docs>
+      <footprints>
+        <fp>PinHeader*P2.54mm*Vertical*</fp>
+        <fp>TerminalBlock*</fp>
+        <fp>Motor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">Stepper_Motor_bipolar</field>
+        <field name="Datasheet">http://www.infineon.com/dgdl/Application-Note-TLE8110EE_driving_UniPolarStepperMotor_V1.1.pdf?fileId=db3a30431be39b97011be5d0aa0a00b0</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_SPST">
+      <description>Single Pole Single Throw (SPST) switch</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_SPST</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Driver_Motor">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Driver_Motor.kicad_sym</uri>
+    </library>
+    <library logical="MCU_Module">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/MCU_Module.kicad_sym</uri>
+    </library>
+    <library logical="Motor">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Motor.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Switch.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="A1" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="A2" pin="27" pinfunction="+5V" pintype="power_out"/>
+      <node ref="M2" pin="2" pinfunction="+" pintype="passive"/>
+      <node ref="M3" pin="2" pinfunction="+" pintype="passive"/>
+      <node ref="M4" pin="2" pinfunction="+" pintype="passive"/>
+    </net>
+    <net code="2" name="+12V">
+      <node ref="A1" pin="8" pinfunction="VMOT" pintype="power_in"/>
+    </net>
+    <net code="3" name="/DIR">
+      <node ref="A1" pin="16" pinfunction="DIR" pintype="input"/>
+      <node ref="A2" pin="5" pinfunction="D2" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="/ENABLE">
+      <node ref="A1" pin="9" pinfunction="~{ENABLE}" pintype="input"/>
+    </net>
+    <net code="5" name="/MS1">
+      <node ref="A1" pin="10" pinfunction="MS1" pintype="input"/>
+      <node ref="A2" pin="10" pinfunction="D7" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="/MS2">
+      <node ref="A1" pin="11" pinfunction="MS2" pintype="input"/>
+      <node ref="A2" pin="9" pinfunction="D6" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="/MS3">
+      <node ref="A1" pin="12" pinfunction="MS3" pintype="input"/>
+      <node ref="A2" pin="8" pinfunction="D5" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="/PWM1">
+      <node ref="A2" pin="12" pinfunction="D9" pintype="bidirectional"/>
+      <node ref="M2" pin="1" pinfunction="PWM" pintype="passive"/>
+    </net>
+    <net code="9" name="/PWM2">
+      <node ref="A2" pin="13" pinfunction="D10" pintype="bidirectional"/>
+      <node ref="M3" pin="1" pinfunction="PWM" pintype="passive"/>
+    </net>
+    <net code="10" name="/PWM3">
+      <node ref="A2" pin="14" pinfunction="D11" pintype="bidirectional"/>
+      <node ref="M4" pin="1" pinfunction="PWM" pintype="passive"/>
+    </net>
+    <net code="11" name="/RESET">
+      <node ref="A1" pin="13" pinfunction="~{RESET}" pintype="input"/>
+      <node ref="A1" pin="14" pinfunction="~{SLEEP}" pintype="input"/>
+      <node ref="A2" pin="7" pinfunction="D4" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="/STEP">
+      <node ref="A1" pin="15" pinfunction="STEP" pintype="input"/>
+      <node ref="A2" pin="6" pinfunction="D3" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="GND">
+      <node ref="A1" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="A1" pin="7" pinfunction="GND" pintype="power_in"/>
+      <node ref="A2" pin="29" pinfunction="GND" pintype="power_in"/>
+      <node ref="A2" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="M2" pin="3" pinfunction="-" pintype="passive"/>
+      <node ref="M3" pin="3" pinfunction="-" pintype="passive"/>
+      <node ref="M4" pin="3" pinfunction="-" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="SW2" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(A1-1A)">
+      <node ref="A1" pin="4" pinfunction="1A" pintype="output"/>
+      <node ref="M1" pin="1" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(A1-1B)">
+      <node ref="A1" pin="3" pinfunction="1B" pintype="output"/>
+      <node ref="M1" pin="2" pinfunction="-" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(A1-2A)">
+      <node ref="A1" pin="5" pinfunction="2A" pintype="output"/>
+      <node ref="M1" pin="3" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(A1-2B)">
+      <node ref="A1" pin="6" pinfunction="2B" pintype="output"/>
+      <node ref="M1" pin="4" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(A2-D12)">
+      <node ref="A2" pin="15" pinfunction="D12" pintype="bidirectional"/>
+      <node ref="SW1" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(A2-D13)">
+      <node ref="A2" pin="16" pinfunction="D13" pintype="bidirectional"/>
+      <node ref="SW2" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="20" name="unconnected-(A2-3V3-Pad17)">
+      <node ref="A2" pin="17" pinfunction="3V3" pintype="power_out+no_connect"/>
+    </net>
+    <net code="21" name="unconnected-(A2-A0-Pad19)">
+      <node ref="A2" pin="19" pinfunction="A0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="22" name="unconnected-(A2-A1-Pad20)">
+      <node ref="A2" pin="20" pinfunction="A1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="23" name="unconnected-(A2-A2-Pad21)">
+      <node ref="A2" pin="21" pinfunction="A2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="24" name="unconnected-(A2-A3-Pad22)">
+      <node ref="A2" pin="22" pinfunction="A3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="25" name="unconnected-(A2-A4-Pad23)">
+      <node ref="A2" pin="23" pinfunction="A4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="26" name="unconnected-(A2-A5-Pad24)">
+      <node ref="A2" pin="24" pinfunction="A5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="27" name="unconnected-(A2-A6-Pad25)">
+      <node ref="A2" pin="25" pinfunction="A6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="28" name="unconnected-(A2-A7-Pad26)">
+      <node ref="A2" pin="26" pinfunction="A7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="29" name="unconnected-(A2-AREF-Pad18)">
+      <node ref="A2" pin="18" pinfunction="AREF" pintype="input+no_connect"/>
+    </net>
+    <net code="30" name="unconnected-(A2-D0{slash}RX-Pad2)">
+      <node ref="A2" pin="2" pinfunction="D0/RX" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="31" name="unconnected-(A2-D1{slash}TX-Pad1)">
+      <node ref="A2" pin="1" pinfunction="D1/TX" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="32" name="unconnected-(A2-D8-Pad11)">
+      <node ref="A2" pin="11" pinfunction="D8" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="33" name="unconnected-(A2-VIN-Pad30)">
+      <node ref="A2" pin="30" pinfunction="VIN" pintype="power_in+no_connect"/>
+    </net>
+    <net code="34" name="unconnected-(A2-~{RESET}-Pad3)">
+      <node ref="A2" pin="3" pinfunction="~{RESET}" pintype="input+no_connect"/>
+    </net>
+    <net code="35" name="unconnected-(A2-~{RESET}-Pad28)">
+      <node ref="A2" pin="28" pinfunction="~{RESET}" pintype="input+no_connect"/>
+    </net>
+  </nets>
+</export>

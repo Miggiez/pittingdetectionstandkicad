@@ -1,0 +1,12 @@
+Date:,2/20/2024 17:15,,,,,
+Tool:,Eeschema 7.0.9,,,,,
+Generator:,C:\Program Files\KiCad\7.0\bin\scripting\plugins/bom_csv_grouped_by_value_with_fp.py,,,,,
+Component Count:,8,,,,,
+Ref,Qnty,Value,Cmp name,Footprint,Description,In Stock
+A1,1,A4988 Driver for Z-Axis,Pololu_Breakout_A4988,Module:Pololu_Breakout-16_15.2x20.3mm,"Pololu Breakout Board, Stepper Driver A4988",1
+A2,1,Arduino_Nano_v2.x,Arduino_Nano_v2.x,Module:Arduino_Nano,Arduino Nano v2.x,1
+M1,1,Nema 17 (Z-axis),Stepper_Motor_bipolar,,4-wire bipolar stepper motor,1
+M2,1,Servo for focusing lense,Motor_Servo,,"Servo Motor (Futaba, HiTec, JR connector)",1
+M3,1,Servo for 180 degree span XY plane,Motor_Servo,,"Servo Motor (Futaba, HiTec, JR connector)",1
+M4,1,Servo motor moving X-Axis,Motor_Servo,,"Servo Motor (Futaba, HiTec, JR connector)",1
+"SW1, SW2",2,U_Bound SW,SW_SPST,,Single Pole Single Throw (SPST) switch,0
